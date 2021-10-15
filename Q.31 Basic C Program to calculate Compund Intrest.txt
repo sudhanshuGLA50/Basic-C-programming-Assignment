@@ -1,5 +1,5 @@
-#include <stdio.h
-#include <math.h
+#include <stdio.h>
+#include <math.h>
 int main()
  {   
 float p,r,t,ci;
@@ -7,5 +7,5 @@ printf("enter the principle,rate,time");
 scanf("%f%f%f",&p,&r,&t);
 ci=p*pow(1+r/100,t)-p;
 printf("%f",ci);
-return 0
+return 0;
 }
